@@ -1,0 +1,13 @@
+git remote add <short name> <repo url>
+ex. git remote add origin git@github.com:simonlee/git.....git
+
+git remote -v
+view remote setting (fetch) and (push) with short name
+
+git remote rename <short name> <new name>
+ex. git remote rename origin github
+
+git remote rm <short name>
+ex. git remote rm origin
+
+!!Multiple remote url can be set to a git project
